@@ -1,0 +1,43 @@
+{
+  "name": "picka",
+  "version": "0.0.1",
+  "description": "Declarative projection from any JS value to another",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strblr/project.git"
+  },
+  "keywords": [
+    "project",
+    "projection",
+    "json",
+    "transform",
+    "cast",
+    "value",
+    "object",
+    "array"
+  ],
+  "author": "strblr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strblr/project/issues"
+  },
+  "homepage": "https://github.com/strblr/project#readme",
+  "prettier": {
+    "trailingComma": "none",
+    "arrowParens": "avoid"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
+  }
+}
